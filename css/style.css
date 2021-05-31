@@ -52,6 +52,10 @@ header div {
     width: calc((1024px - 60px) / 4);
 }
 
+.row .margin {
+    margin-right: 20px;
+}
+
 .row .air {
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: auto 180px;
@@ -73,6 +77,10 @@ header div {
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: auto 180px;
     background-position: center;
+}
+
+.col:hover .text{
+    visibility: visible;
 }
 
 .row .bicy:hover {
@@ -103,10 +111,6 @@ header div {
     background-image: url(../img/noun_Submarine_3134738.png);
     background-size: auto 180px;
     background-position: center;
-}
-
-.row .margin {
-    margin-right: 20px;
 }
 
 footer {
