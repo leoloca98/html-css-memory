@@ -37,6 +37,7 @@ header div {
 .row .col {
     border-radius: 20px;
     float: left;
+    background-color: white;
     background-image: url(../img/pattern.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,14 +47,56 @@ header div {
     width: calc((1024px - 60px) / 4);
 }
 
-.row .mem {
+.row .air{
     background-image: url(../img/noun_air_balloon_3134741.png);
-    background-size: cover;
+    background-size: auto 180px;
+    background-position: center;
 }
 
-.text{
+.text {
     text-align: center;
+    margin-top: 90%;
+    font-size: 35px;
+    color: rgb(202, 5, 202);
 }
+
+.row .air-b:hover {
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: auto 180px;
+    background-position: center;
+}
+
+.row .bicy:hover {
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-size: auto 180px;
+    background-position: center;
+}
+
+.row .ship:hover {
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-size: auto 180px;
+    background-position: center;
+}
+
+.row .tractor:hover {
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-size: auto 180px;
+    background-position: center;
+}
+
+.row .tram:hover {
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-size: auto 180px;
+    background-position: center;
+}
+
+.row .sub:hover {
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-size: auto 180px;
+    background-position: center;
+}
+
+
 
 .row .margin {
     margin-right: 20px;
