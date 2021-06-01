@@ -9,6 +9,7 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     font-family: 'Nerko One', cursive;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .pointer {
@@ -73,14 +74,15 @@ header div {
     visibility: hidden;
 }
 
+.col:hover .text {
+    visibility: visible;
+    color: orange;
+}
+
 .row .air-b:hover {
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: auto 180px;
     background-position: center;
-}
-
-.col:hover .text{
-    visibility: visible;
 }
 
 .row .bicy:hover {
